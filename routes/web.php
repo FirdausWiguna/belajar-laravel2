@@ -20,6 +20,7 @@ Route::get('/', function () {
     return view('pages.home', $user);
 });
 
+Route::redirect('/', '/home');
 Route::get('/home', [HomeC::class, 'index']);
 Route::get('/about', [HomeC::class, 'about']);
 Route::get('/contact', [HomeC::class, 'contact']);

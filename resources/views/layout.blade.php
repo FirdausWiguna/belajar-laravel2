@@ -1,4 +1,4 @@
-<h1>KWU APP | @yield('title')</h1>
+<h1>WEBSITE SMKN 1 SUBANG | @yield('title')</h1>
 <nav>
     <ul>
         {{-- http://localhost:8000/home --}}
